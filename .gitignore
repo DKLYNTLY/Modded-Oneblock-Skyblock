@@ -1,23 +1,32 @@
-### AL ###
-#Template for AL projects for Dynamics 365 Business Central
-#launch.json folder
-.vscode/
-#Cache folder
-.alcache/
-#Symbols folder
-.alpackages/
-#Snapshots folder
-.snapshots/
-#Testing Output folder
-.output/
-#Extension App-file
-*.app
-#Rapid Application Development File
-rad.json
-#Translation Base-file
-*.g.xlf
-#License-files
-*.bclicense
-*.flf
-#Test results file
-TestResults.xml
+# --- Minecraft world/runtime data (never commit) ---
+world/
+world_nether/
+world_the_end/
+saves/
+logs/
+crash-reports/
+*.log
+
+# --- Sensitive server files ---
+ops.json
+whitelist.json
+banned-players.json
+banned-ips.json
+usercache.json
+session.lock
+server.properties
+
+# --- Mod jars (not redistributed — pulled via manifest) ---
+mods/*.jar
+!mods/.gitkeep
+
+# --- Build / cache junk ---
+.gradle/
+build/
+*.class
+.DS_Store
+Thumbs.db
+
+# --- Backups ---
+*.zip
+*.bak
