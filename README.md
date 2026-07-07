@@ -1,47 +1,73 @@
-# Modded Oneblock Skyblock
+# 🌟 Modded OneBlock Skyblock 🌟
 
-Kitchen Sink modpack with 700+ mods, centered around "One Block" gameplay. Players start
-on a single block in the sky, expanding and progressing by breaking it.
+_A void world with infinite automation and exploration._
 
-- **Minecraft:** 1.16.5
-- **Loader:** Forge
-- **Original pack:** [CurseForge page](https://www.curseforge.com/minecraft/modpacks/modded-oneblock-skyblock)
-- **Original author:** DKLYNTLY
+## 🧱 Overview
 
-> This repo does not redistribute mod `.jar` files. Mods are pulled in via the
-> CurseForge/Modrinth manifest, same as the official launcher does. Only configs,
-> scripts, and other original content live here.
+A **void world** with only **one block to break**, new **dimensions to explore**, and **machines to automate** your progress.  
+Fight **powerful bosses**, uncover hidden challenges, and build your world block by block.
 
-## What's in this repo
+**Grind for materials, food, weapons, and armor** — then automate everything.
 
-| Path | Purpose |
-|---|---|
-| `manifest.json` | Client modpack manifest (mod list + versions) |
-| `server-manifest.json` | Server-side manifest (if it differs from client) |
-| `overrides/` | Shared configs, resource packs, kubejs/scripts, etc. |
-| `server-only/` | Server-exclusive files: start scripts, `server.properties.example` |
-| `CHANGELOG.md` | Version history |
-| `.github/ISSUE_TEMPLATE/` | Bug report templates for client and server issues |
+## 🧩 Final Update (1.16.5 Legacy)
 
-## Reporting issues
+This is the **final major update** for _Modded OneBlock Skyblock (1.16.5)_.  
+No new content will be added going forward — only **critical bug fixes** may be released.
 
-Please use the [Issues tab](../../issues) instead of Discord — it's searchable and
-lets you check whether your bug has already been reported. Pick the right template:
+***
 
-- **Client bug** — crashes, gameplay issues, visual bugs
-- **Server bug** — problems specific to running/joining the server
+## ⚙️ System Requirements
 
-Attach your `latest.log` or crash report from `logs/` / `crash-reports/` when possible.
+| Component |Recommended                             |Minimum                             |
+| --------- |--------------------------------------- |----------------------------------- |
+| <strong>CPU</strong> |Ryzen 5 5600X / i5-12600K               |Ryzen 3 3600 / i5-10400F            |
+| <strong>GPU</strong> |RTX 3060 Ti / RX 6700 XT (8–16 GB VRAM) |GTX 1070 / RX 580 (8 GB VRAM)       |
+| <strong>RAM</strong> |12 GB allocated (system 16 GB total)    |8 GB allocated (system 12 GB total) |
+| <strong>Java</strong> |Java 8 – 11 (Forge 1.16.5 compatible)   |JDK 16 also supported               |
 
-## Installing
+⚠️ **Do not allocate more than 12 GB of RAM** — Minecraft performance may worsen above that.
 
-**Client:** Import `manifest.json` via CurseForge app or Modrinth App, or use a
-[Packwiz](https://packwiz.infra.link/)-style setup if you switch to that later.
+***
 
-**Server:** See `server-only/README.md` for Java version, RAM, and port notes.
+## 🧭 Getting Started
 
-## License
+1.  **Create a Void World** → _More World Options → World Type → Void_
+2.  **Open your Quest Book** immediately after spawning
+3.  **Claim your starter generator** and begin your island journey
+4.  Progress through quests to unlock automation, magic, and exploration
 
-Mod files themselves remain under their original authors' licenses (All Rights
-Reserved on the CurseForge listing — mods are referenced, not redistributed).
-Config/script changes in this repo are original work unless noted otherwise.
+***
+
+## ❓ FAQ & Troubleshooting
+
+**Q:** My game won't launch.  
+**A:** Make sure you’ve allocated at least **8 GB of RAM** in CurseForge launcher settings.
+
+**Q:** I can’t mine or break blocks.  
+**A:** Run this command in chat to remove the invisible boss effect: `/kill @e[type=elder_guardian]`
+
+**Q:** Can I use Essential or LAN/Local hosting mods for multiplayer?  
+**A:** ❌ **No!** Do **not** use **Essential**, **LAN open**, or any **self-hosting multiplayer mods** — they cause severe instability and world corruption with large modpacks.
+
+**Q:** My game crashes randomly.  
+**A:** Try switching to **windowed mode** and ensure you’re using **Java 8–11 or JDK 16**.
+
+***
+
+## 🆘 Help
+
+![Help](https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/3720adbf-6f3c-4454-8717-faa65cc6c757/dg1p4zi-f7984bd8-8b00-4bbc-ba4a-1811ad20314f.png/v1/fill/w_1280,h_2560,q_80,strp/help_by_dark9893_dg1p4zi-fullview.jpg?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjU2MCIsInBhdGgiOiJcL2ZcLzM3MjBhZGJmLTZmM2MtNDQ1NC04NzE3LWZhYTY1Y2M2Yzc1N1wvZGcxcDR6aS1mNzk4NGJkOC04YjAwLTRiYmMtYmE0YS0xODExYWQyMDMxNGYucG5nIiwid2lkdGgiOiI8PTEyODAifV1dLCJhdWQiOlsidXJuOnNlcnZpY2U6aW1hZ2Uub3BlcmF0aW9ucyJdfQ.DXMRz3Roj0794kvRDh9-g4HWhy63QqO632mC8IlNuaY)
+
+***
+
+## 🎥 Video Showcase
+
+<span><span><span><span><span><span><span><iframe width="638" height="358" src="https://www.youtube.com/embed/x8YJvbB0xhw?wmode=transparent" allowfullscreen="allowfullscreen"></iframe></span></span></span></span></span></span></span>
+
+***
+
+## 💎 Sponsor
+
+Need a server for your OneBlock world?  
+Host easily with **Bisect Hosting** and use code **DARKLEE** for a discount:  
+👉 [https://bisecthosting.com/Darklee](https://bisecthosting.com/Darklee)
