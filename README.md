@@ -56,7 +56,7 @@ Fight **powerful bosses**, uncover hidden challenges, and build your world block
 
 ### Video Showcase
 
-<span><span><span><span><span><span><span><iframe width="638" height="358" src="https://www.youtube.com/embed/x8YJvbB0xhw?wmode=transparent" allowfullscreen="allowfullscreen"></iframe></span></span></span></span></span></span></span>
+[![Watch the showcase](https://img.youtube.com/vi/x8YJvbB0xhw/hqdefault.jpg)](https://www.youtube.com/watch?v=x8YJvbB0xhw)
 
 </details>
 
